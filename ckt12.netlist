@@ -1,0 +1,8 @@
+.circuit
+V1 1 GND ac 20 0
+R1 1 2 3
+L1 2 GND 4e-3
+C1 2 3 500e-6
+H1 3 GND V1 2
+.end
+.ac V1 159.15
